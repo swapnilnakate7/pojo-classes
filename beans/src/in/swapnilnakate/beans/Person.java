@@ -1,4 +1,4 @@
-package in.swapnil.beans;
+package in.swapnilnakate.beans;
 
 public class Person {
     private String title;

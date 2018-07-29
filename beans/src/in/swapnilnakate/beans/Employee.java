@@ -1,22 +1,22 @@
-package in.swapnil.beans;
+package in.swapnilnakate.beans;
 
-public class Student {
-    private Integer rollNumber;
+public class Employee {
+    private Integer employeeId;
     private String firstName;
     private String lastName;
 
-    public Student(Integer rollNumber, String firstName, String lastName) {
-        this.rollNumber = rollNumber;
+    public Employee(Integer employeeId, String firstName, String lastName) {
+        this.employeeId = employeeId;
         this.firstName = firstName;
         this.lastName = lastName;
     }
 
-    public Integer getRollNumber() {
-        return rollNumber;
+    public Integer getEmployeeId() {
+        return employeeId;
     }
 
-    public void setRollNumber(Integer rollNumber) {
-        this.rollNumber = rollNumber;
+    public void setEmployeeId(Integer employeeId) {
+        this.employeeId = employeeId;
     }
 
     public String getFirstName() {
@@ -37,8 +37,8 @@ public class Student {
 
     @Override
     public String toString() {
-        return "Student{" +
-                "rollNumber=" + rollNumber +
+        return "Employee{" +
+                "employeeId=" + employeeId +
                 ", firstName='" + firstName + '\'' +
                 ", lastName='" + lastName + '\'' +
                 '}';
